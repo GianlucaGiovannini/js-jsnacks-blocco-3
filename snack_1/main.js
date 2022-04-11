@@ -80,7 +80,7 @@ console.log(autoDiesel)
 })
 console.log(autoDiesel) */
 
-const autoDiverse = automobili.filter((automobile) => automobile.alimentazione == "gpl" || automobile.alimentazione == "elettrico" || automobile.alimentazione == "metano")
+const autoDiverse = automobili.filter((automobile) => automobile.alimentazione != "benzina" && automobile.alimentazione != "diesel")
 console.log(autoDiverse)
 
 /* const autoDiverse = automobili.filter((automobile) => {
