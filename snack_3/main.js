@@ -31,7 +31,7 @@ console.log(animali)
 // creo una costante che sarà il mio array di mammiferi
 
 const mammiferi = animali.filter((animale) => animale.classe == "mammiferi")
-console.log("tuttii mammiferi")
+console.log("tutti i mammiferi")
 console.log(mammiferi)
 
 // creo un ciclo forEach per ciclare singolarmente ogni animale nell'array "mammiferi" e stamparli in console
