@@ -58,6 +58,10 @@ const automobili = [{
 ];
 console.log(automobili)
 
+
+
+// creo una costante che diventerà un'array
+// uso .filter per filtrare tutti gli array pushare su un'altro array solo quelli che nella key alimentazione hanno una determinata parola
 const autoBenzina = automobili.filter((automobile) => automobile.alimentazione == "benzina")
 console.log(autoBenzina)
 
