@@ -58,29 +58,35 @@ const automobili = [{
 ];
 console.log(automobili)
 
-/* const autoBenzina = automobili.filter((automobile) =>  == automobile.benzina)
-console.log(autoBenzina) */
+const autoBenzina = automobili.filter((automobile) => automobile.alimentazione == "benzina")
+console.log(autoBenzina)
 
-const autoBenzina = automobili.filter((automobile) => {
+/* const autoBenzina = automobili.filter((automobile) => {
     if (automobile.alimentazione == "benzina") {
         return true;
     }
     return false
 })
-console.log(autoBenzina)
+console.log(autoBenzina) */
 
-const autoDiesel = automobili.filter((automobile) => {
+const autoDiesel = automobili.filter((automobile) => automobile.alimentazione == "diesel")
+console.log(autoDiesel)
+
+/* const autoDiesel = automobili.filter((automobile) => {
     if (automobile.alimentazione == "diesel") {
         return true;
     }
     return false
 })
-console.log(autoDiesel)
+console.log(autoDiesel) */
 
-const autoDiverse = automobili.filter((automobile) => {
+const autoDiverse = automobili.filter((automobile) => automobile.alimentazione == "gpl" || automobile.alimentazione == "elettrico" || automobile.alimentazione == "metano")
+console.log(autoDiverse)
+
+/* const autoDiverse = automobili.filter((automobile) => {
     if (automobile.alimentazione == "gpl" || automobile.alimentazione == "elettrico" || automobile.alimentazione == "metano") {
         return true;
     }
     return false
 })
-console.log(autoDiverse)
+console.log(autoDiverse) */
